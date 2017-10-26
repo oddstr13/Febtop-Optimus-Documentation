@@ -1,0 +1,114 @@
+Laser Cartesian
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+
+Assembly
+Focus the Laser
+Software
+Generate Laser Cutting Gcode
+Generate Laser Engraving Gcode
+Start Engraving/Cut
+
+1.1 Assembly
+STEP 1
+Take 4 small and 2 medium T-Slots. Use the cube connectors to make two U shapes.
+Part List: 4x Small T-Slots, 2x Medium T-Slots, 4x Cubes, 8x S1 and 8x Lids.
+
+STEP 2
+Connect one of the U shapes with a long T-Slot and fasten it with a S1, then take the other long T-Slot and connect it
+to the other end of the U shape. Connect the last U shape with the structure.
+Part List: 4x Lids, 2x Long T-Slots and 4x S1.
+
+STEP 3
+Fasten four small connector plates (both sides).
+Part List: 8x S3, 4x Small Connectors Plates and 1x X-slider.
+
+STEP 4
+Mount the two Y-sliders to the X-sliders boxes, then fasten the X-slider to the Y-sliders with 8 S3 screws.
+Part List: 8x S3, 2x Y-sliders and 1x X-slider.
+
+STEP 5
+Put the 3 sliders on top of the base structure, then mount and fasten the four connector plates to the base structure and
+the sliders.
+Part List: 4x Trays, 4x Connector Plates, 16x S2 and 8x S4.
+
+STEP 6
+Put the screws through the beds wholes and then fix them with the trays. Don’t fasten the screws with the trays yet.
+Part List: 24x S7 and 24x Trays.
+
+STEP 7
+Mount the laser component on the middle X-slider. Fasten it with 4 S3 screws.
+Part List: 4x S3.
+
+STEP 8
+Wiring diagram.
+
+1.2 Focus the Laser
+TIP: Print a cube with 25x25mm.
+
+STEP 1
+Safety comes first, make sure that the laser is off during this progress and use safety glasses. For this step you will need a
+measurement tool. Loosen the screws on the side of the laser head to control its height. The laser should have an offset
+of 25mm from your choice of material.
+
+STEP 2
+Tighten the screws on the side of the laser head when you´ve set the offset to 25mm.
+
+1.3 Software
+Go to www.febtop.com/support, click in download software under Laser Cartesian.
+
+Go to www.febtop.com/support, click in Optimus Plugin under Other Docs.
+
+1.4 Generate Laser Cutting Gcode
+
+Open Inkscape > Document Properties and setup the page size.
+
+If the size of object used engraving on is 50mm by 50mm, then set the page size to 50mm by 50mm.
+
+For example, you could use the spline tool and draw a simple triangle. To convert the triangle into a cutting toolpath
+(Gcode format) go to Extension > Laser Cut.
+
+Travel Speed
+Laser Speed
+Laser Power
+Passes
+
+The speed of the tool head when not cutting (laser off).
+The speed of the tool head when cutting (laser on).
+The power of the laser beam in steps from 0 to 255.
+How many times the toolhead will iterate the path (for 2 it goes around the path twice etc,
+for some materials you need several passes until you can cut through it all).
+
+Click Apply and you should see your toolpath represented by arrows with an orange color and a file with the Gcode
+should have been created at the path you entered.
+
+1.5 Generate Laser Engraving Gcode
+
+Open Inkscape > Document Properties and setup the page size.
+
+Drag in a picture to be engraved and convert into a engraving toolpath (Gcode format). Go to Extension > Laser Engrave.
+
+Laser Power
+Conversion Algorithm
+
+The power of the laser beam in steps from 0 to 255.
+Set the conversion method as you need.
+
+1.6 Start Engraving/Cut
+
+Depending on which machine you are planning on using, it’s very important to configure this. Click on SETTING and then
+CONFIGS. Choose between the DELTA/CARTESIAN/CNC. Then turn the control box off and on again. Now your machine
+is ready to be used.
+
+Turn on the laser with low power by following the steps below.
+
+Manually control the laser head to the corner of the object.
+
+Click the printing icon and find your file in the file menu. Then you can start the cutting job by clicking on it. Just wait
+until the Optimus finishes the job.
+
+

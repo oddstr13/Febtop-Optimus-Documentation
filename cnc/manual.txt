@@ -1,0 +1,56 @@
+CNC
+1.1
+1.2
+1.3
+
+Assembly
+Gcode
+Start Using
+
+1.1 Assembly
+STEP 1
+Take 4 small and 2 medium T-Slots. Use the cube connectors to make two U shapes.
+Part List: 4x Small T-Slots, 2x Medium T-Slots, 4x Cubes, 8x S1 and 8x Lids.
+
+STEP 2
+Connect one of the U shapes with a long T-Slot and fasten it with a S1, then take the other long T-Slot and connect it
+to the other end of the U shape. Connect the last U shape with the structure.
+Part List: 4x Lids, 2x Long T-Slots and 4x S1.
+
+STEP 3
+Fasten four small connector plates (both sides).
+Part List: 8x S3, 4x Small Connectors Plates and 1x X-slider.
+
+STEP 4
+Mount the two Y-sliders to the X-sliders boxes, then fasten the X-slider to the Y-sliders with 8 S3 screws.
+Part List: 8x S3, 2x Y-sliders and 1x X-slider.
+
+STEP 5
+Put the 3 sliders on top of the base structure, then mount and fasten the four connector plates to the base structure and
+the sliders.
+Part List: 4x Trays, 4x Connector Plates, 16x S2 and 8x S4.
+
+STEP 6
+Put the screws through the beds wholes and then fix them with the trays. Don’t fasten the screws with the trays yet.
+Part List: 24x S7 and 24x Trays.
+
+STEP 7
+Mount the CNC component on the middle X-slider. Fasten it with 4 screws.
+Part List: 2x Screws.
+
+STEP 8
+Wiring diagram.
+
+1.2 Gcode
+
+Go to www.febtop.com/support, click in Watch Instructions under CNC.
+
+1.3 Starting Using
+
+Depending on which machine you are planning on using, it’s very important to configure this. Click on SETTING and then
+CONFIGS. Choose between the DELTA/CARTESIAN/CNC. Then turn the control box off and on again. Now your machine
+is ready to be used.
+
+Turn on the potentiometer before and click on PRINT to start the CNC Milling job.
+
+

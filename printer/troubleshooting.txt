@@ -1,0 +1,40 @@
+Troubleshooting / 3D Printer
+1.1
+1.2
+
+Z-value
+Nozzle Instructions
+
+1.1 Z-value
+
+Go to SETTING and then click LEVELING. Click on Delta Z Height, and click RETURN and MOVE.
+
+Adjust the steps to 0.1mm on the touchscreen. Put a piece of paper between the nozzle and the print head. Then click
+and continue clicking on -Z while moving the paper back and forth. When you feel a slight of resistance from the paper
+your Z-value has been determinedly. Write this Z-value down in machine settings in Cura.
+
+Remove the screws that are attached to the printer head and loosen the trays that are connected to the inductive
+sensor. Spin the tray until there is a gap according to the photo.
+
+Take 8 slides of sheet and put over the bed. Bring the printer head to the base (causing the nozzle to be in the bed), hold
+the inductive sensor down and tighten the upper tray as shown in the photo.
+
+The last step is to hold the tray from above, and tighten the tray from below.
+
+Correct Z-offset value.
+
+A larger Z-offset value. The nozzle is too close to the print bed.
+
+A smaller Z-offset value. The nozzle is too far away from the print bed.
+
+1.2 Nozzle Instructions
+In this first picture we can see a nozzle that need to be replaced. The first step is to assembly your new nozzle, and
+remove the old one, as you can see in the picture below.
+
+When you have done the assembly of the nozzle, put the cables in to the holes like in the picture below. Then mount the
+nozzle to the print head and put the cables carefully through the hole like the picture below.
+
+Before you tighten the screws for the nozzle make sure that it is properly attached, move the nozzle back and forth and
+make sure that the screws are in the track before tightening them.
+
+

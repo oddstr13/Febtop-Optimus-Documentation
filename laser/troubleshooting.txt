@@ -1,0 +1,15 @@
+Troubleshooting / Laser Cartesian
+1.1
+
+Cartesian Cover Assembly
+
+1.1 Cartesian Cover Assembly
+Go to www.febtop.com/support, download and print 10 pieces of Magnet Holder. Place the magnet in the lower square
+attached with double sided tape.
+
+Use screws to mount them on an acrylic plate (both sides).
+
+Mount the side panels to the Cartesian. Fix the front and the back of the acrylic plate, then install the hinges on two
+cover acrylic panels.
+
+
